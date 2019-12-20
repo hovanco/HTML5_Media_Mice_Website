@@ -1,0 +1,179 @@
+#section1{
+    background-color: burlywood;
+}
+#section2 {
+    background-color: cadetblue;
+}
+
+.logo{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 98.9%;
+    z-index: 1;
+}
+.logo-image{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    width: 120px;
+    height: 50px;
+    
+}
+
+.text-coming-soon{
+    float: left;
+    width: 50%;
+    margin-top: 200px;
+}
+
+.text-coming-soon .text{
+    font-size: 3.5rem; 
+    text-transform: uppercase;
+}
+
+
+
+.image-chef{
+    padding-top: 60px;
+    margin-left: auto;
+    height: 625px;
+}
+
+
+
+.text-our-service{
+    height: 150px;
+    background-color: white;
+
+}
+
+.text-our-service .type-font{
+    font-size: 4rem;
+    text-transform: uppercase;
+    top: 793px;
+    padding-left: 40px;
+
+    
+}
+
+
+
+.listing-service {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+/* class .service-item là con của class .listing-service => Cho rõ ràng code */
+.listing-service .service-item {
+    /* width: 33.33%; */
+    width: 25%;
+    text-align: center;
+    margin-left: 70px;
+}
+.listing-service .service-item .type-title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.listing-service .service-item .type-content{
+    font-family: sans-serif;
+}
+
+
+.background-eyes{
+    margin-top: 100px;
+    background-color: black;
+    height: 700px;
+    text-align: center;
+    
+
+}
+
+.background-eyes .image-eyes{
+    width: auto;
+    height: 800px;
+}
+
+.background-eyes .image-banana{
+    width: 200px;
+    height: 200px;
+  
+    margin-top: -770px;
+}
+
+.background-eyes .image-banana .banana{ 
+    width: 150px;
+    height: 200px;
+    margin-left: -50px;
+    
+    
+} 
+
+.text-publication{
+    width: 50%;
+    height: 100px;
+    text-align: center;  
+    padding-left: 375px;
+    margin-top: -180px;
+    
+}
+
+.publication{
+    color: white;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding-left: 0px;
+    margin-top: -180px;
+    
+
+    
+}
+.container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.image-pizza{
+    height: 300px;
+    /* background-color: chartreuse; */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -45px;
+}
+
+.image-pizza .pizza{
+    width: 200px;
+    height: 200px;
+    padding-right: -87px;
+    float: right;
+    padding-right: 20px;
+}
+
+.listing-image{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: white; */
+}
+
+.listing-image .image-pie{
+    width: 25%;
+    height: 300px;
+    margin-left: 70px;
+    
+    
+}
+
+.listing-image .image-pie .pie{
+    width: 350px;
+    height: 300px;
+    padding-left: 200px;
+}
